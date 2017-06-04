@@ -12,3 +12,5 @@ thoughts I may have but also as a test case for various technologies commonly us
 * AWS S3
 
 At some point I will post a blog entry on how this web site is made and deployed.
+
+As for the reason Hexo is used, that primarily boils down to wanting to author the blog posts in Markdown.  Other then that, it offers all the basic features I wanted such as the ability to tag and categorize posts and also be able to add arbitrary pages.  
