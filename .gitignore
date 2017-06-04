@@ -9,3 +9,4 @@ public/
 cache-s3-cf-deploy
 .gitconfig
 .ssh
+.bash_history
