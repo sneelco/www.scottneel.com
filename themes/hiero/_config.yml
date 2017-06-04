@@ -1,0 +1,87 @@
+# ---------------------------------------------------------------
+# Site Information Settings
+# ---------------------------------------------------------------
+
+# Header Menu
+menu:
+  home: /
+  about: /about
+  categories: /categories
+  tags: /tags
+  archives: /archives
+
+rss: /atom.xml
+
+since: 2017
+
+# Set default keywords (Use a comma to separate)
+keywords: ""
+
+# Put your favicon.ico into `hexo-site/themes/hiero/source/` directory.
+favicon: css/images/favicon.ico
+
+
+# Put your avatar.jpg into `hexo-site/themes/hiero/source/` directory.
+# url is target link (E.g. `url: https://hexo.io/logo.svg` or `url: css/images/mylogo.jpg`)
+avatar: 
+  enable: false
+  width: 124
+  height: 124
+  bottom: 10
+  url: https://hexo.io/logo.svg
+
+# Homepage thumbnail
+random_thumb: false
+
+
+# Content
+fancybox: true
+
+
+# Sidebar
+sidebar: right
+widgets:
+- search
+- recent_posts
+- category
+- tag
+- tagcloud
+- archive
+
+# Social Links
+# Key is the name of FontAwsome icon.
+# Value is the target link (E.g. GitHub: https://github.com/iTimeTraveler)
+social:
+  Github: https://github.com/truesneel
+
+
+# Search
+search:
+    insight: true # you need to install `hexo-generator-json-content` before using Insight Search
+
+
+# Code Highlight theme
+# Available value:
+#    default | normal | night | night eighties | night blue | night bright
+# https://github.com/chriskempson/tomorrow-theme
+highlight_theme: night
+
+
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+ - category
+ - tagcloud
+# - archive
+
+
+# widget behavior
+archive_type: 'monthly'
+show_count: true
+
+# Google Webmaster tools verification setting
+# See: https://www.google.com/webmasters/
+google_site_verification:
+
+# Miscellaneous
+google_analytics: UA-100461206-1
